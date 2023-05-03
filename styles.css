@@ -126,9 +126,43 @@ select{
 }
 .business{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     background-color: #666;
-    width: 70%;
+    width: 80%;
     margin: auto;
+    padding: 0.6em;
+}
+.parent-image{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 3rem;
+    margin-left: 8rem;
+    margin-top: 1rem;
+}
+.one img{
+    width: 24vw;
+    height: 60vh;
+}
+.Images{
+    
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+       
+    
+}
+.parent-image-1,.parent-image-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+
+}
+.parent-image-1 img, .parent-image-2 img{
+    width: 25vw;
+    height: 27vh;
+    border-radius: 20px;
 }
