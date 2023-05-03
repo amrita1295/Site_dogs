@@ -1,0 +1,134 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.d-flex{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.background{
+    background-image: url('https://images.unsplash.com/photo-1667080799488-3fa8fe75cdd8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    height: 65vh;
+}
+.form-1{
+    display: flex;
+    justify-content: center;
+}
+.search-container {
+    display: flex;
+    flex-direction: row;
+}
+  
+input {
+    width: 200px;
+    padding: 8px;
+    margin: 0 4px 0 0;
+    border: 1px solid #666;
+    border-radius: 5px;
+    height: 30px;
+}
+select{
+    width: 200px;
+    padding: 8px;
+    margin: 0 4px 0 0;
+    border: 1px solid #666;
+    border-radius: 5px;
+    height: 47px;
+}
+  
+.button {
+    padding: 8px 16px;
+    min-height: 48px;
+    width: 100px;
+    word-wrap: nowrap;
+    background: orange;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.card-layout{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly;
+    
+}
+.card-image{
+    background-image: url('https://images.unsplash.com/photo-1667080799488-3fa8fe75cdd8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    height: 45vh;
+    width: 18vw;
+    border-radius: 20px;
+}
+.card-button{
+    background-color: green;
+    border-radius: 10px;
+
+}
+.dogs-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+}
+.dogs-card{
+    background-image: url('https://images.unsplash.com/photo-1667190679378-78f74ba11f6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    height: 40vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+}
+.linear-card{
+    width: 24.6vw;
+    position: relative;
+    
+}
+.linear-card img{
+    opacity: 0.7;
+    position: relative
+
+}
+.heads-1{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+.heads-2{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+.heads-3{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+.heads-4{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+.business{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #666;
+    width: 70%;
+    margin: auto;
+}
