@@ -179,6 +179,14 @@ select {
   align-items: center;
   border-radius: 20px;
 }
+
+.product-header{
+    background-color: #292727;
+    padding: 20px;
+  }
+  
+
+
 .parent {
   display: flex;
   flex-direction: row;
@@ -189,7 +197,7 @@ select {
   position: relative;
 }
 .linear-card img {
-  opacity: 0.7;
+    filter: brightness(40%);
   position: relative;
   height: 83vh;
 }
@@ -197,21 +205,25 @@ select {
   position: absolute;
   top: 40%;
   left: 30%;
+  color: white;
 }
 .heads-2 {
   position: absolute;
   top: 40%;
   left: 30%;
+  color: white;
 }
 .heads-3 {
   position: absolute;
   top: 40%;
   left: 30%;
+  color: white;
 }
 .heads-4 {
   position: absolute;
   top: 40%;
   left: 30%;
+  color: white;
 }
 .business {
   display: flex;
