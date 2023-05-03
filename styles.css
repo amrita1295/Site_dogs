@@ -320,6 +320,18 @@ select {
   height: 27vh;
   border-radius: 20px;
 }
+.col-flex{
+    display: flex;
+    column-gap: 1em;
+}
+.col-flex button{
+    border: none;
+    padding: 8px;
+    background-color: rgb(48, 43, 43);
+    color: white;
+    border-radius: 12px;
+    width: 8vw;
+}
 
 /* featured part */
 .featured {
