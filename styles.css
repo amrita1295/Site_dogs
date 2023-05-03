@@ -112,10 +112,15 @@ select {
   border-radius: 5px;
   cursor: pointer;
 }
-.card-layout {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+.d-col{
+    display: inline-flex;
+    
+}
+.card-layout{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly;
+    
 }
 
 .background {
@@ -128,7 +133,17 @@ select {
 .banner-header {
   margin-top: 100px;
 }
-
+.linear-card{
+    width: 24.6vw;
+    position: relative;
+    
+}
+.linear-card img{
+    opacity: 0.7;
+    position: relative;
+    width: 24.4vw;
+    height: 83vh;
+}
 .banner-header-title {
   font-size: 40px;
   color: white;
