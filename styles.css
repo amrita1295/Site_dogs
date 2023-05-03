@@ -302,14 +302,13 @@ select {
 }
 .one img {
   width: 24vw;
-  height: 60vh;
+  height: 66vh;
 }
-.one-over{
-    position: absolute;
-    top: 30%;
-    left: 20%;
-    width: 18vw;
-
+.one-over {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  width: 16vw;
 }
 .Images {
   display: flex;
@@ -343,10 +342,9 @@ select {
   width: 8vw;
 }
 
-
-.featured-dog-para{
-    margin-top: 10px;
-    margin-bottom: 10px;
+.featured-dog-para {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 /* featured part */
 .featured {
