@@ -132,11 +132,10 @@ select {
     margin-top: 3rem;
     
 }
-.card-layout{
-    display: flex; 
-    flex-direction: row; 
-    justify-content: space-evenly;
-    
+.card-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .background {
@@ -149,16 +148,15 @@ select {
 .banner-header {
   margin-top: 100px;
 }
-.linear-card{
-    width: 24.6vw;
-    position: relative;
-    
+.linear-card {
+  width: 24.6vw;
+  position: relative;
 }
-.linear-card img{
-    opacity: 0.7;
-    position: relative;
-    width: 24.4vw;
-    height: 83vh;
+.linear-card img {
+  opacity: 0.7;
+  position: relative;
+  width: 24.4vw;
+  height: 83vh;
 }
 .banner-header-title {
   font-size: 40px;
@@ -210,6 +208,12 @@ select {
   align-items: center;
   border-radius: 20px;
 }
+
+.product-header {
+  background-color: #292727;
+  padding: 20px;
+}
+
 .parent {
   display: flex;
   flex-direction: row;
@@ -220,29 +224,34 @@ select {
   position: relative;
 }
 .linear-card img {
-  opacity: 0.7;
+  filter: brightness(40%);
   position: relative;
   height: 83vh;
 }
+
 .heads-1 {
   position: absolute;
   top: 40%;
   left: 30%;
+  color: white;
 }
 .heads-2 {
   position: absolute;
   top: 40%;
   left: 30%;
+  color: white;
 }
 .heads-3 {
   position: absolute;
   top: 40%;
   left: 30%;
+  color: white;
 }
 .heads-4 {
   position: absolute;
   top: 40%;
   left: 30%;
+  color: white;
 }
 .business {
   display: flex;
