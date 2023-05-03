@@ -12,6 +12,8 @@ body {
   background-attachment: fixed;
 }
 
+/* This is navigation css */
+
 .navbar-logo {
   width: 150px;
   height: 50px;
@@ -63,11 +65,16 @@ ul li a:hover {
   color: orangered;
 }
 
+
+/* Banner part css */
+
 .d-flex {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
+
+
 .background {
   background-image: url("https://images.unsplash.com/photo-1667080799488-3fa8fe75cdd8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
   height: 65vh;
@@ -199,7 +206,7 @@ select {
   
 }
 .card-button {
-  background-color: rgb(84, 243, 84);
+  background-color: rgb(23, 202, 23);
   border-radius: 10px;
   width: 8vw;
   height: 5vh;
@@ -333,6 +340,8 @@ select {
   margin-left: 30px;
 }
 
+/* protect part */
+
 .protect-left {
   margin-top: 100px;
   width: 300px;
@@ -366,6 +375,8 @@ select {
   background-color: #cb2d3e;
 }
 
+
+
 /* Our latest hot and news card */
 
 *,
@@ -386,10 +397,10 @@ select {
 .latest-card-title {
   font-weight: bolder;
   padding-top: 100px;
+  color: gray;
 }
 
 .latest-card {
-  font-family: "Quicksand", sans-serif;
   display: grid;
   place-items: center;
   height: 80vh;
