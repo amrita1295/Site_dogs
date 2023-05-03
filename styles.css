@@ -304,6 +304,13 @@ select {
   width: 24vw;
   height: 60vh;
 }
+.one-over{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    width: 18vw;
+
+}
 .Images {
   display: flex;
   flex-direction: column;
