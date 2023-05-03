@@ -1,39 +1,42 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title></title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
+  <body>
     <section class="navbar">
-        <div>
-            <img src="" alt="logo" />
+        <div class="navbar-left">
+            <img src="/images/dog-logo.png" alt="logo" class="navbar-logo"/>
+            <span class="dog-business">Dog Business</span>
         </div>
         <div class="division">
             <ul>
-                <li>Home</li>
-                <li>Marketplace</li>
-                <li>Magazine</li>
-                <li>Breed</li>
-                <li>Products</li>
+              <li><a href="">Home</a></li>
+              <li><a href="">Marketplace</a></li>
+              <li><a href="">Magazine</a></li>
+              <li><a href="">Breed</a></li>
+              <li><a href="">Products</a></li>
             </ul>
         </div>
-        <div>
-            <button type="button"> Login</button>
-            <button type="button">Register</button>
-        </div>
+        <div class="division">
+          <ul>
+            <li class="login">
+              <a href="">Login</a>
+            </li>
+            <li class="login ">
+              <a href="" class="register">Register</a></li>
+            </ul>
+         </div>
     </section>
-    <!-- hero unit section -->
     <section class="d-flex background">
-        <div>
-            <h2>For the love of all things dog bible</h2>
-            <p>Whoop Whoop! Find your favorite</p>
+        <div class="banner-header">
+            <h2 class="banner-header-title">For the Love of All Things Dog Bible</h2>
+            <span class="whoop">Whoop Whoop! </span><span class="favorite">Find your favorite</span>
         </div>
         <div class="form-1">
             <form>
-
                 <div class="search-container">
                     <input type="text" placeholder="Type anything here">
                     <select type="text">
@@ -44,16 +47,16 @@
                         <option>GoldenRetriever</option>
                     </select>
                     <input type="text" class="date-to" placeholder="California">
-                    <button type="submit" class="button">Search</button>
+                    
+                    <input type="submit" value="Search" class="button">
                 </div>
-
             </form>
         </div>
     </section>
 
     <!--Popular Breeds-->
-    <section style="background-color: gainsboro;">
-        <h1 style="text-align: center;">Popular Breeds</h1>
+    <section class="popular-bread">
+        <h1 style="text-align: center; margin-bottom: 50px; color: gray;">Our Popular Breeds</h1>
         <div class="card-layout">
             <div>
                 <div class="card-image"
@@ -95,99 +98,265 @@
                 </div>
                 <p>Mrie Hademan Phantum NV 7894</p>
             </div>
-
+  
         </div>
     </section>
 
     <!-- Cards -->
     <section class="dogs-menu">
-        <div class="dogs-card">
-            <h1>Current news and guides to dog</h1>
-            <button type="button"
-                style="background-color: orangered;color: white; border-radius: 15px;width: 10vw;height: 5vh;">Know more
-            </button>
-        </div>
-        <div class="dogs-card">
-            <h1>Current news and guides to dog</h1>
-            <button type="button"
-                style="background-color: orangered;color: white;border-radius: 15px;width: 10vw;height: 5vh;">Know more
-            </button>
-        </div>
+      <div class="dogs-card">
+        <h1>Current news and guides to dog</h1>
+        <button
+          type="button"
+          style="
+            background-color: orangered;
+            color: white;
+            border-radius: 15px;
+            width: 10vw;
+            height: 5vh;
+          "
+        >
+          Know more
+        </button>
+      </div>
+      <div class="dogs-card">
+        <h1>Current news and guides to dog</h1>
+        <button
+          type="button"
+          style="
+            background-color: orangered;
+            color: white;
+            border-radius: 15px;
+            width: 10vw;
+            height: 5vh;
+          "
+        >
+          Know more
+        </button>
+      </div>
     </section>
     <section>
-        <h1 style="text-align: center;">Product for dogs</h1>
-        <div class="parent">
-            <div class="linear-card">
-                <img src="https://images.unsplash.com/photo-1667190679378-78f74ba11f6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                    alt="" />
-                <h3 class="heads-1">dog toys</h3>
-            </div>
-            <div class="linear-card">
-                <img src="https://images.unsplash.com/photo-1667190679378-78f74ba11f6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                    alt="" />
-                <h3 class="heads-2">dog hoys</h3>
-            </div>
-            <div class="linear-card">
-                <img src="https://images.unsplash.com/photo-1667190679378-78f74ba11f6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                    alt="" />
-                <h3 class="heads-3">Travel bowls</h3>
-            </div>
-            <div class="linear-card">
-                <img src="https://images.unsplash.com/photo-1667190679378-78f74ba11f6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                    alt="" />
-                <h3 class="heads-4">Bandanas</h3>
-            </div>
+      <h1 style="text-align: center">Product for dogs</h1>
+      <div class="parent">
+        <div class="linear-card">
+          <img
+            src="https://images.unsplash.com/photo-1667190679378-78f74ba11f6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            alt=""
+          />
+          <h3 class="heads-1">dog toys</h3>
         </div>
+        <div class="linear-card">
+          <img
+            src="https://images.unsplash.com/photo-1667190679378-78f74ba11f6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            alt=""
+          />
+          <h3 class="heads-2">dog hoys</h3>
+        </div>
+        <div class="linear-card">
+          <img
+            src="https://images.unsplash.com/photo-1667190679378-78f74ba11f6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            alt=""
+          />
+          <h3 class="heads-3">Travel bowls</h3>
+        </div>
+        <div class="linear-card">
+          <img
+            src="https://images.unsplash.com/photo-1667190679378-78f74ba11f6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            alt=""
+          />
+          <h3 class="heads-4">Bandanas</h3>
+        </div>
+      </div>
     </section>
 
     <!-- Our Featured dog business -->
-    <section>
-        <h1 style="text-align: center;">Our Featured dog business</h1>
-        <div class="business">
-            <div class="d-flex">
-                <img src="" />
-                <p>Breeding males</p>
-            </div>
-            <div class="d-flex">
-                <img src="" />
-                <p>Dog schools</p>
-            </div>
-            <div class="d-flex">
-                <img src="" />
-                <p>Dog sports</p>
-            </div>
-            <div class="d-flex">
-                <img src="" />
-                <p>Doggy day care</p>
-            </div>
-            <div class="d-flex">
-                <img src="" />
-                <p>Dog Training</p>
-            </div>
+
+
+    <section class="featured-dog">
+      <h1 style="text-align: center">Our Featured dog business</h1>
+      <div class="business">
+        <div class="d-flex">
+          <img src="" />
+          <p>Breeding males</p>
         </div>
-        <div class="parent-image">
-            <div class="one">
-                <img src="./puppy.jpg" />
-            </div>
-            <div class="Images">
-                <div class="parent-image-1">
-                    <img src="./puppy.jpg" alt=""/>
-                    <img src="./puppy.jpg" alt="" />
-                </div>
-                <div class="parent-image-2">
-                    <img src="./puppy.jpg" alt=""/>
-                    <img src="./puppy.jpg" alt=""/>
-                </div>
-            </div>
+        <div class="d-flex">
+          <img src="" />
+          <p>Dog schools</p>
         </div>
+        <div class="d-flex">
+          <img src="" />
+          <p>Dog sports</p>
+        </div>
+        <div class="d-flex">
+          <img src="" />
+          <p>Doggy day care</p>
+        </div>
+        <div class="d-flex">
+          <img src="" />
+          <p>Dog Training</p>
+        </div>
+      </div>
+      <div class="parent-image">
+        <div class="one">
+          <img src="./puppy.jpg" />
+        </div>
+        <div class="Images">
+          <div class="parent-image-1">
+            <img src="./puppy.jpg" alt="" />
+            <img src="./puppy.jpg" alt="" />
+          </div>
+          <div class="parent-image-2">
+            <img src="./puppy.jpg" alt="" />
+            <img src="./puppy.jpg" alt="" />
+          </div>
+        </div>
+      </div>
     </section>
-    
+
     <!-- Protect dog -->
     <section>
-        <div>
-            <img src="" alt="" />
-        </div>
+      <div>
+        <img src="" alt="" />
+      </div>
     </section>
-</body>
 
+
+
+
+
+    <!-- latest and hot news cards -->
+
+   <div class="latest-card">
+    <div class="header-latest-card">
+      <h1 class="latest-card-title">Our Latest and Hot News</h1>
+     <span class="show-all">Show all</span>
+    </div>
+
+    <div class="container">
+      <div class="card">
+        <div class="card__header">
+          <img src="https://plus.unsplash.com/premium_photo-1670513671607-a15caaf818c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="card__image" class="card__image" width="600">
+        </div>
+        <div class="card__body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p>
+        </div>
+        <div class="card__footer">
+          <div class="user">
+            <div class="user__info">
+              <small>3 may 2023</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__header">
+          <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="card__image" class="card__image" width="600">
+        </div>
+        <div class="card__body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p>
+        </div>
+        <div class="card__footer">
+          <div class="user">
+            <div class="user__info">
+              <small>3 may 2023</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__header">
+          <img src="https://images.unsplash.com/photo-1576201836106-db1758fd1c97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="card__image" class="card__image" width="600">
+        </div>
+        
+        <div class="card__body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p>
+        </div>
+        <div class="card__footer">
+          <div class="user">
+            <div class="user__info">
+              <small>3 may 2023</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+
+
+
+<hr>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="row footer-container">
+        <div class="column column-2">
+            <h2 class="small-footer-header">Your Wildlife</h2>
+            <p class="footer-support-text">
+              <a class="footer-link" href="#" target="_blank" rel="noopener noreferrer">about us</a>
+            </p>
+            <p class="footer-support-text">
+              <a class="footer-link" href="#" target="_blank" rel="noopener noreferrer">feed finder</a>
+            </p>
+            <p class="footer-support-text">
+              <a class="footer-link" href="#" target="_blank" rel="noopener noreferrer">Press & Advertise</a>
+            </p>
+            <p class="footer-support-text">
+              <a class="footer-link" href="#" target="_blank" rel="noopener noreferrer">quality initiative</a>
+            </p>
+            <p class="footer-support-text">
+              <a class="footer-link" href="#" target="_blank" rel="noopener noreferrer">Conditions</a>
+            </p>
+            <p class="footer-support-text">
+              <a class="footer-link" href="#" target="_blank" rel="noopener noreferrer">imprint</a>
+            </p>
+          </div>
+        <div class="column column-2">
+          <h2 class="small-footer-header">Help & Service</h2>
+          <p class="footer-support-text">
+            <a class="footer-link" href="#" target="_blank" rel="noopener noreferrer">Help(FAQ)</a>
+          </p>
+          <p class="footer-support-text">
+            <a class="footer-link" href="#" target="_blank" rel="noopener noreferrer">Prices</a>
+          </p>
+          <p class="footer-support-text">
+            <a class="footer-link" href="#" target="_blank" rel="noopener noreferrer">Become a certified provider</a>
+          </p>
+          <p class="footer-support-text">
+            <a class="footer-link" href="#" target="_blank" rel="noopener noreferrer">Career</a>
+          </p>
+          <p class="footer-support-text">
+            <a class="footer-link" href="#" target="_blank" rel="noopener noreferrer">privacy</a>
+          </p>
+        </div>
+        <div class="column column-3">
+          <h2 class="small-footer-header">Top Categories</h2>
+          <p class="footer-support-text">
+            <a class="footer-link" href="#" target="_blank" rel="noopener noreferrer">Dog Sport</a>
+          </p>
+          <p class="footer-support-text">
+            <a class="footer-link" href="#" target="_blank" rel="noopener noreferrer">Dog Training</a>
+          </p>
+          <p class="footer-support-text">
+            <a class="footer-link" href="#" target="_blank" rel="noopener noreferrer">Dog School</a>
+          </p>
+          <p class="footer-support-text">
+            <a class="footer-link" href="#" target="_blank" rel="noopener noreferrer">Dog Food</a>
+          </p>
+        </div>
+        <div class="column column-4">
+
+          <h2 class="small-footer-header">Subscribe to our Newsletter</h2>
+
+          <input type="text" id="fname" name="firstname" placeholder="Enter your email address here      &#128269">
+          <h2 class="small-footer-header follow">Follow Social Media </h2>
+        </div>
+
+
+       <div class="logo-footer">
+        <img src="/images/dog-logo.png" alt="" class="dog-logo">
+        <span class="copy">@Copyright All Right Reserved Dogs Want</span>
+       </div>
+      </div>
+    </footer>
+  </body>
 </html>
